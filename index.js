@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-const VERIFY_TOKEN = 'abcd123456'; 
+const VERIFY_TOKEN = 'letsetgo'; 
 
 // Endpoint for Facebook Webhook Verification
 app.get('/api/webhook', (req, res) => {
